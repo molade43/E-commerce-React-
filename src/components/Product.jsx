@@ -72,7 +72,7 @@ const Product = ({ propItemToProduct }) => {
   return (
     <Container>
       <Circle />
-      <Image src={propItemToProduct.img} />
+      <Image src={propItemToProduct.img} key={propItemToProduct.id} />
       <Info>
         <Icon>
           <ShoppingCartOutlined />
